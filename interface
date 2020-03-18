@@ -1,0 +1,14 @@
+import tkinter as tk
+
+fenetre=tk.Tk()
+fenetre.title("Morsatore")
+
+B1 = tk.Button(fenetre, text = "              ", relief = "raised")
+B2 = tk.Button(fenetre, text = "              ", relief = "raised")
+
+Frame1 = tk.Frame(fenetre, borderwidth=2)
+
+
+B1.pack()
+B2.pack()
+fenetre.mainloop()
